@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.cranberrygame.phonegap.plugin.rate"
+    version="1.0.0">
+	
+    <name>Rate</name>
+    <description>Rate</description>
+    <author>Sang Ki Kwon (Cranberrygame)</author>	
+    <license>MIT</license>
+    <keywords>phonegap, rate</keywords>
+    <repo>https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.rate</repo>
+    <issue>https://github.com/floatinghotpot/com.cranberrygame.phonegap.plugin.rate/issues</issue>	
+	<engines>
+	    <engine name="cordova" version=">=3.0.0" />
+	</engines>
+ 	
+	<dependency id="com.cranberrygame.phonegap.plugin.apppage" url="https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.apppage" commit="a67f2ccd053ea6536f8fa02c075393654f176651" />
+	<dependency id="org.apache.cordova.dialogs"/>
+    <dependency id="org.apache.cordova.inappbrowser"/>
+</plugin>

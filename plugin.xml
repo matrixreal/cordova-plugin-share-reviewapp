@@ -2,20 +2,34 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.cranberrygame.phonegap.plugin.rate"
-    version="1.0.0">
+    version="1.0.1">
 	
-    <name>Rate</name>
-    <description>Rate</description>
+    <name>Phonegap Rate plugin</name>
+    <description>Phonegap Rate plugin</description>
     <author>Sang Ki Kwon (Cranberrygame)</author>	
     <license>MIT</license>
-    <keywords>phonegap, rate</keywords>
+    <keywords>phonegap, plugin, rate</keywords>
     <repo>https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.rate</repo>
-    <issue>https://github.com/floatinghotpot/com.cranberrygame.phonegap.plugin.rate/issues</issue>	
+    <issue>https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.rate/issues</issue>	
 	<engines>
 	    <engine name="cordova" version=">=3.0.0" />
 	</engines>
  	
-	<dependency id="com.cranberrygame.phonegap.plugin.apppage" url="https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.apppage" commit="a67f2ccd053ea6536f8fa02c075393654f176651" />
-	<dependency id="org.apache.cordova.dialogs"/>
-    <dependency id="org.apache.cordova.inappbrowser"/>
+	<dependency id="org.apache.cordova.dialogs" version="0.2.10"/>
+    <dependency id="org.apache.cordova.inappbrowser" version="0.5.2"/>
+	
+    <js-module src="www/rate.js">
+        <clobbers target="window.rate"/>
+    </js-module>
+	
+    <!-- wp8 -->
+    <platform name="wp8">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Rate">
+                <param name="wp-package" value="Rate"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/wp8/Rate.cs" />
+    </platform>	
 </plugin>

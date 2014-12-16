@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.cranberrygame.phonegap.plugin.rate"
-    version="1.0.1">
+    version="1.0.2">
 	
     <name>Phonegap Rate plugin</name>
     <description>Phonegap Rate plugin</description>
@@ -15,8 +15,8 @@
 	    <engine name="cordova" version=">=3.0.0" />
 	</engines>
  	
-	<dependency id="org.apache.cordova.dialogs" version="0.2.10"/>
-    <dependency id="org.apache.cordova.inappbrowser" version="0.5.2"/>
+	<dependency id="org.apache.cordova.dialogs@0.2.10"/>
+    <dependency id="org.apache.cordova.inappbrowser@0.5.4"/>
 	
     <js-module src="www/rate.js">
         <clobbers target="window.rate"/>

@@ -17,10 +17,10 @@
  	
 <!--	
 	<dependency id="org.apache.cordova.dialogs@0.2.10"/>
-    <dependency id="org.apache.cordova.inappbrowser@0.5.4"/>
 -->
 	<dependency id="org.apache.cordova.dialogs"/>
-    <dependency id="org.apache.cordova.inappbrowser"/>
+
+    <dependency id="org.apache.cordova.inappbrowser" />
 	
     <js-module src="www/rate.js">
         <clobbers target="window.rate"/>

@@ -1,2 +1,2 @@
 
-# com.cranberrygame.phonegap.plugin.rate
+# com.cranberrygame.phonegap.plugin.rateapp

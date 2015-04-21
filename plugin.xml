@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.cranberrygame.phonegap.plugin.rateapp"
+    id="com.cranberrygame.cordova.plugin.reviewapp"
     version="1.0.4">
 	
-    <name>Phonegap RateApp plugin</name>
-    <description>Phonegap RateApp plugin</description>
+    <name>Cordova ReviewApp plugin</name>
+    <description>Cordova ReviewApp plugin</description>
     <author>Sang Ki Kwon (Cranberrygame)</author>	
     <license>MIT</license>
-    <keywords>phonegap, plugin, rateapp</keywords>
-    <repo>https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.rateapp</repo>
-    <issue>https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.rateapp/issues</issue>	
+    <keywords>cordova, plugin, reviewapp</keywords>
+    <repo>https://github.com/cranberrygame/com.cranberrygame.cordova.plugin.reviewapp</repo>
+    <issue>https://github.com/cranberrygame/com.cranberrygame.cordova.plugin.reviewapp/issues</issue>	
 	<engines>
 	    <engine name="cordova" version=">=3.0.0" />
 	</engines>
@@ -22,18 +22,18 @@
 
     <dependency id="org.apache.cordova.inappbrowser" />
 	
-    <js-module src="www/rateapp.js">
-        <clobbers target="window.rateapp"/>
+    <js-module src="www/reviewapp.js">
+        <clobbers target="window.reviewapp"/>
     </js-module>
 	
     <!-- wp8 -->
     <platform name="wp8">
         <config-file target="config.xml" parent="/*">
-            <feature name="RateApp">
-                <param name="wp-package" value="RateApp"/>
+            <feature name="ReviewApp">
+                <param name="wp-package" value="ReviewApp"/>
             </feature>
         </config-file>
 
-        <source-file src="src/wp8/RateApp.cs" />
+        <source-file src="src/wp8/ReviewApp.cs" />
     </platform>	
 </plugin>

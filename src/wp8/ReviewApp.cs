@@ -14,10 +14,10 @@ using System.Diagnostics; //Debug.WriteLine
 
 namespace Cordova.Extension.Commands
 {
-    public class RateApp : BaseCommand
+    public class ReviewApp : BaseCommand
     {
 
-        public void openRateAppUrlDirectly(string args)
+        public void openReviewAppUrlDirectly(string args)
         {
 			Debug.WriteLine("test");
   

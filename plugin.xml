@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.cranberrygame.cordova.plugin.reviewapp"
-    version="1.0.4">
+    id="cordova-plugin-promotion-reviewapp"
+    version="1.0.24">
 	
     <name>Cordova ReviewApp plugin</name>
     <description>Cordova ReviewApp plugin</description>
     <author>Sang Ki Kwon (Cranberrygame)</author>	
     <license>MIT</license>
     <keywords>cordova, plugin, reviewapp</keywords>
-    <repo>https://github.com/cranberrygame/com.cranberrygame.cordova.plugin.reviewapp</repo>
-    <issue>https://github.com/cranberrygame/com.cranberrygame.cordova.plugin.reviewapp/issues</issue>	
+    <repo>https://github.com/cranberrygame/cordova-plugin-promotion-reviewapp</repo>
+    <issue>https://github.com/cranberrygame/cordova-plugin-promotion-reviewapp/issues</issue>	
 	<engines>
 	    <engine name="cordova" version=">=3.0.0" />
 	</engines>

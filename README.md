@@ -1,2 +1,2 @@
 
-# com.cranberrygame.phonegap.plugin.rateapp
+# cordova-plugin-share-reviewapp

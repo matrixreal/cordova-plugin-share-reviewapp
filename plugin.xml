@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-share-reviewapp"
-    version="1.0.24">
+    version="1.0.25">
 	
     <name>Cordova ReviewApp plugin</name>
     <description>Cordova ReviewApp plugin</description>
@@ -17,10 +17,11 @@
  	
 <!--	
 	<dependency id="org.apache.cordova.dialogs@0.2.10"/>
--->
 	<dependency id="org.apache.cordova.dialogs"/>
+-->
+	<dependency id="cordova-plugin-dialogs"/>
 
-    <dependency id="org.apache.cordova.inappbrowser" />
+    <dependency id="cordova-plugin-inappbrowser" />
 	
     <js-module src="www/reviewapp.js">
         <clobbers target="window.reviewapp"/>

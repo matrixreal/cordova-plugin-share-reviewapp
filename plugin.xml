@@ -23,7 +23,7 @@
 
     <dependency id="cordova-plugin-inappbrowser" />
 	
-    <js-module src="www/reviewapp.js">
+    <js-module src="www/reviewapp.js" name="reviewapp">
         <clobbers target="window.reviewapp"/>
     </js-module>
 	

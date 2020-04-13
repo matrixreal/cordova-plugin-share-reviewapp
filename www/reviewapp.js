@@ -1,6 +1,6 @@
 
 module.exports = {
-	reviewAppCount: 0,
+	reviewAppCount: 2,
 	tag: '',	
 	openReviewAppUrlDirectly : function (reviewAppUrl) {
 		//Cordova.exec(null,null,"RateApp","openReviewAppUrlDirectly",['']);//success,fail,class,method,params
